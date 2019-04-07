@@ -1,0 +1,4 @@
+# exportPattern("^[[:alpha:]]+")
+export(pis.fit,pis.fit.boots)
+importFrom("stats", "optim")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
